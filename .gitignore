@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+
+generic_certs.db
+cert_monitor.log
+reports_output/
