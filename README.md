@@ -1,6 +1,6 @@
 # Generic Domain Certificate Finder — Certificate Monitor
 
-An internal security tool that discovers subdomains for a given base domain from public Certificate Transparency (CT) logs and passive DNS sources, classifies them by environment, and probes non-production domains to see whether they're reachable from the public internet.
+An security tool that discovers subdomains for a given base domain from public Certificate Transparency (CT) logs and passive DNS sources, classifies them by environment, and probes non-production domains to see whether they're reachable from the public internet.
 
 The goal is to make it easy to find non-prod domains (dev, staging, QA, NPE, etc.) that should be behind VPN/zero-trust but are currently reachable externally — and to keep that list updated.
 
